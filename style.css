@@ -69,6 +69,7 @@ mark{background:var(--red);color:#fff;padding:0 .2em}
 .c-dark{background:#0d0d0d;color:#fff}
 .orb{width:70%;aspect-ratio:1;margin:auto;border-radius:50%;background:radial-gradient(circle,#fff 0 6%,#ffd84a 9%,#5aa0ff 22%,#1d3fb0 45%,#0a1440 62%,transparent 70%);filter:saturate(1.2);animation:spin 18s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
+.vscode-logo{width:62%;height:auto;margin:auto;filter:drop-shadow(0 8px 18px rgba(0,120,212,.45))}
 .c-photo{background:linear-gradient(160deg,#f2f1ef,#cfcdc9);padding:0}
 .photo-ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--head);font-size:clamp(16px,2vw,28px);text-align:center;color:#2b2b2b;filter:grayscale(1)}
 .c-photo img{width:100%;height:100%;object-fit:cover;filter:grayscale(1)}

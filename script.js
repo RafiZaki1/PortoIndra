@@ -121,9 +121,12 @@ if (reduce) {
   wheelTl.to(fx, { meOpacity: 1, duration: 0.6, ease: 'power2.out' }, 1.4);
 
   // Fase D (mulai 2.5s): auto-rotate
+  // Satu putaran penuh = N langkah (kartu foto Indra kembali ke tengah), lalu jeda singkat di kartu itu.
   const loop = gsap.timeline({ repeat: -1 });
-  loop.to(wheel, { rotation: '-=1', duration: 0.8, ease: 'power2.inOut' });
-  loop.to({}, { duration: 1.5 });
+  for (let s = 0; s < N; s++) {
+    loop.to(wheel, { rotation: '-=1', duration: 0.7, ease: 'power1.inOut' });
+  }
+  loop.to({}, { duration: 2 });
   wheelTl.add(loop, 2.5);
 }
 
