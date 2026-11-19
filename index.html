@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indra Setiawan — Portofolio</title>
+  <meta name="description" content="Portofolio Indra Setiawan, siswa RPL SMKN 2 Mojokerto: desain UI dan web developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="mark" aria-label="Ke atas"><span>IS</span></a>
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#perjalanan">Perjalanan</a>
+    <a href="#karya">Karya</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- LANDING: judul dengan wave huruf -->
+  <section class="hero" id="hero" aria-label="Pembuka">
+    <div class="title-layer">
+      <span class="plus p1"></span><span class="plus p2"></span><span class="plus p3"></span><span class="plus p4"></span>
+      <span class="plus p5"></span><span class="plus p6"></span><span class="plus p7"></span><span class="plus p8"></span>
+      <div class="hero-block" aria-hidden="true"></div>
+
+      <p class="hero-welcome">Welcome<br>to my</p>
+      <div class="hero-mark mark big" aria-hidden="true"><span>IS</span></div>
+
+      <span class="tri tri-l" aria-hidden="true"></span>
+      <span class="tri tri-r" aria-hidden="true"></span>
+
+      <h1 class="hero-title" aria-label="Portofolio">
+        <span class="word outline" aria-hidden="true"></span>
+        <span class="word solid" aria-hidden="true"></span>
+      </h1>
+
+      <div class="hero-foot">
+        <span>Indra Setiawan</span>
+        <span>RPL • SMKN 2</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODA KARTU: section tersendiri, animasi otomatis -->
+  <div class="fan" aria-label="Sekilas karya">
+    <svg class="ring" aria-hidden="true">
+      <defs><path id="circ"/></defs>
+      <circle/>
+      <text><textPath href="#circ">PORTOFOLIO • INDRA SETIAWAN • PORTOFOLIO • INDRA SETIAWAN • </textPath></text>
+    </svg>
+    <div class="dial-me" aria-hidden="true">▲<br>ME</div>
+    <div class="fan-cards">
+      <article class="card c-photo">
+        <!-- Ganti dengan foto: <img src="images/indra.jpg" alt="Indra Setiawan"> -->
+        <div class="photo-ph">INDRA<br>SETIAWAN</div>
+        <small class="vert">RPL · SMKN 2</small>
+      </article>
+      <article class="card c-light">
+        <small>PAMERAN</small>
+        <strong class="big-num">ONDE<br>ONDE</strong>
+        <small>VS CODE · WEB</small>
+      </article>
+      <article class="card c-figma">
+        <small>01 / TOOL</small>
+        <div class="figma-logo" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <strong>FIGMA</strong>
+      </article>
+      <article class="card c-dark">
+        <small>JHIC · 2026</small>
+        <div class="orb" aria-hidden="true"></div>
+        <strong>WEB SEKOLAH</strong>
+      </article>
+      <article class="card c-red">
+        <span class="tri-s up"></span>
+        <div class="mark huge" aria-hidden="true"><span>IS</span></div>
+        <span class="tri-s down"></span>
+      </article>
+    </div>
+  </div>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="sec about">
+    <div class="sec-label"><span>01</span> Tentang</div>
+    <div class="about-grid">
+      <p class="lead">Halo, saya <mark>Indra Setiawan</mark>, siswa SMK jurusan Rekayasa Perangkat Lunak yang berfokus pada desain antarmuka dan pengembangan web.</p>
+      <div class="about-side">
+        <p>Saya memiliki pengalaman sebagai designer dan web developer, dan senang mencari ide-ide yang menarik. Saya terbiasa bekerja di bawah tenggat waktu dan terus belajar untuk mengembangkan kemampuan saya.</p>
+        <ul class="chips">
+          <li>Komunikasi</li><li>Kerja sama tim</li><li>Manajemen waktu</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEAHLIAN -->
+  <section id="keahlian" class="sec">
+    <div class="sec-label"><span>02</span> Keahlian</div>
+    <div class="skill-grid">
+      <article class="skill">
+        <span class="skill-no">A</span>
+        <h3>Figma</h3>
+        <p>UI design, prototyping</p>
+      </article>
+      <article class="skill">
+        <span class="skill-no">B</span>
+        <h3>Web Developer</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </article>
+      <article class="skill">
+        <span class="skill-no">C</span>
+        <h3>AI</h3>
+        <p>Alat bantu ide &amp; kerja</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PERJALANAN: pendidikan, pengalaman, pelatihan dalam satu timeline -->
+  <section id="perjalanan" class="sec">
+    <div class="sec-label"><span>03</span> Perjalanan</div>
+    <ol class="timeline">
+      <li>
+        <span class="tl-year">2026</span>
+        <div class="tl-body">
+          <h3>Peserta Lomba JHIC 2026</h3>
+          <p>Bertanggung jawab pada bagian desain website sekolah, mulai dari landing page, halaman profil sekolah, hingga halaman-halaman pendukung lainnya.</p>
+          <span class="tag">Pengalaman</span>
+        </div>
+      </li>
+      <li>
+        <span class="tl-year">6 Apr – 6 Okt 2026</span>
+        <div class="tl-body">
+          <h3>Praktik Kerja Lapangan (PKL), 6 bulan</h3>
+          <p class="tl-org">PT. Minarsih Tech</p>
+          <p>[Tugas utama selama PKL, misalnya membuat fitur/halaman web atau merancang tampilan.]</p>
+          <p class="tl-tech">[Teknologi yang dipakai, misalnya Laravel, MySQL, Figma]</p>
+          <span class="tag">Pengalaman</span>
+        </div>
+      </li>
+      <li>
+        <span class="tl-year">2026</span>
+        <div class="tl-body">
+          <h3>Pelatihan Laravel, SMKN 2 Mojokerto</h3>
+          <p>Mempelajari pengembangan aplikasi web dengan framework Laravel: [materi, misalnya routing, database, CRUD, autentikasi].</p>
+          <span class="tag">Pelatihan</span>
+        </div>
+      </li>
+      <li>
+        <span class="tl-year">2024 – 2026</span>
+        <div class="tl-body">
+          <h3>SMKN 2 Mojokerto</h3>
+          <p>Rekayasa Perangkat Lunak (RPL)</p>
+          <span class="tag">Pendidikan</span>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- KARYA -->
+  <section id="karya" class="sec">
+    <div class="sec-label"><span>04</span> Karya Unggulan</div>
+    <div class="works">
+      <article class="work">
+        <div class="work-visual"><img src="images/jhic.jpg" alt="Tampilan website SMKN 2 Mojokerto untuk lomba JHIC 2026" loading="lazy"></div>
+        <div class="work-body">
+          <h3>Design Web Sekolah</h3>
+          <p>Proyek sekolah untuk lomba JHIC 2026.</p>
+          <dl>
+            <dt>Peran</dt><dd>Mendesain</dd>
+            <dt>Alat</dt><dd>Figma</dd>
+          </dl>
+        </div>
+      </article>
+      <article class="work">
+        <div class="work-visual"><img src="images/onde-onde.png" alt="Tampilan website Ondez, toko onde-onde" loading="lazy"></div>
+        <div class="work-body">
+          <h3>Web Toko Onde-Onde</h3>
+          <p>Proyek sekolah untuk event pameran.</p>
+          <dl>
+            <dt>Peran</dt><dd>Membangun web</dd>
+            <dt>Alat</dt><dd>VS Code</dd>
+          </dl>
+        </div>
+      </article>
+      <article class="work">
+        <div class="work-visual"><img src="images/sportshop.png" alt="Tampilan website SportShop, toko olahraga online" loading="lazy"></div>
+        <div class="work-body">
+          <h3>Web Toko SportShop</h3>
+          <p>Toko olahraga online dengan produk berkualitas dan harga terjangkau.</p>
+          <dl>
+            <dt>Peran</dt><dd>[isi peran]</dd>
+            <dt>Alat</dt><dd>[isi alat]</dd>
+          </dl>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRESTASI -->
+  <section class="sec">
+    <div class="sec-label"><span>05</span> Prestasi &amp; Sertifikat</div>
+    <div class="award">
+      <span class="award-year">2026</span>
+      <div>
+        <h3>Peserta Lomba JHIC</h3>
+        <p>Tim desain website SMKN 2 Mojokerto.</p>
+      </div>
+    </div>
+    <div class="award">
+      <span class="award-year">2026</span>
+      <div>
+        <h3>Praktik Kerja Lapangan (PKL), 6 bulan</h3>
+        <p>PT. Minarsih Tech</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="contact">
+    <span class="plus p1"></span><span class="plus p2"></span>
+    <p class="contact-kicker">06 — Kontak</p>
+    <h2>Ayo<br>ngobrol.</h2>
+    <div class="contact-links">
+      <a href="mailto:indrasetiawan12363@gmail.com"><small>Email</small>indrasetiawan12363@gmail.com</a>
+      <a href="https://wa.me/6288805178367" target="_blank" rel="noopener"><small>WhatsApp</small>0888-0517-8367</a>
+      <a href="https://instagram.com/indrastwn24" target="_blank" rel="noopener"><small>Instagram</small>@indrastwn24</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© 2026 Indra Setiawan</span>
+  <span>SMKN 2 Mojokerto · RPL</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
