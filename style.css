@@ -169,6 +169,26 @@ mark{background:var(--red);color:#fff;padding:0 .2em}
   .hero-welcome,.hero-foot{left:8%;right:8%}
   .hero-mark{right:8%}
   .hero-block{width:26vw}
+  .award{gap:18px;padding:22px;flex-wrap:wrap}
+  .foot{flex-direction:column;gap:6px;text-align:center}
+}
+@media (max-width:560px){
+  .nav{inset:12px 12px auto}
+  .nav .mark{width:38px;height:38px;font-size:11px;flex-shrink:0}
+  .nav nav{max-width:calc(100% - 56px);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .nav nav::-webkit-scrollbar{display:none}
+  .nav nav a{white-space:nowrap;padding:7px 9px;font-size:11px}
+  .hero{min-height:560px}
+  .hero-title{font-size:clamp(30px,9vw,60px);height:clamp(60px,18vw,90px)}
+  .hero-welcome{top:12%;font-size:12px}
+  .hero-mark{top:12%}
+  .hero-block{top:22%;bottom:24%;width:28vw}
+  .hero-foot{bottom:10%;font-size:9px}
+  .tri-l,.tri-r{border-block-width:9px;border-inline-width:12px}
+  .contact h2{font-size:clamp(40px,13vw,72px)}
+  .contact-links a{width:100%}
+  .timeline li{padding:24px 0}
+  .tl-body{padding-left:20px}
 }
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
